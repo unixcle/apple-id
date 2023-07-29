@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'koodak';
+    src: url('../fonts/KoodakBold.eot?#') format('eot') 
+    ,url('../fonts/KoodakBold.ttf') format('truetype') 
+    ,url('../fonts/KoodakBold.woff') format('woff');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face{
+    font-family: 'nazanin';
+    src: url('../fonts/Nazanin.eot?#') format('eot'),
+    url('../fonts/Nazanin.ttf') format('truetype'),
+    url('../fonts/Nazanin.woff') format('woff');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'yekan';
+    src: url('../fonts/Yekan.eot?#') format('eot'),
+    url('../fonts/yekan.ttf') format('truetype'),
+    url('../fonts/yekan.woff') format('woff');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'vazir';
+    src: url('../fonts/vazir-font-v16.1.0/Vazir-Bold.eot?#') format('eot'),
+    url('../fonts/vazir-font-v16.1.0/Vazir-Bold.ttf') format('truetype'),
+    url('../fonts/vazir-font-v16.1.0/Vazir-Bold.woff') format('woff');
+    font-style: normal;
+    font-weight: normal;
+}
+
+.koo{
+    font-family: 'koodak';
+}
+.yek{
+    font-family: 'yekan';
+}
+.vazir{
+    font-family: 'vazir';
+}
+.naz{
+    font-family: 'nazanin';
+}
+
+/* این بخش برای ریسپانسیو کردن نوبار هست */
+.hide{
+    display: none;
+}
+@media(max-width : 990px){
+    .hide{
+        display: flex;
+        margin:18px 18px;
+        align-self: end;
+    }
+}
+/* navbar end */
+
+/* margin customs */
+.mt-6{
+    margin-top: 80px;
+}
+.mt-7{
+    margin-top: 120px;
+}
+.mt-8{
+    margin-top: 160px;
+}
+.mt-9{
+    margin-top: 200px;
+}
+.mt-10{
+    margin-top: 240px;
+}
+
+/* some bg-customs */
+.bg-custom1{
+    background-color: rgb(74, 43, 187);
+}
+/* random customs */
+.height-custom{
+    height: 400px;
+    border-radius: 20px;
+}
+.text-custom{
+    background: #B8E1FC;
+    background: radial-gradient(circle farthest-corner at center center, #B8E1FC 0%, #231421 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.btn-custom1{
+    border: #B8E1FC;
+    border-radius: 15px;
+    background: #959595;
+
+}
+.btn-custom2{
+    background-color: rgb(28, 73, 194);
+    color: white;
+}
+/* unique part */
+.unique{
+    border: 0.1rem grey solid;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.test{
+    margin-bottom: 8;
+}
+/* price sec */
+.price{
+    text-align: center;
+    margin-top: 20px ;
+}
+
